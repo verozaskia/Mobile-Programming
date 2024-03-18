@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Menghitung Luas Persegi Panjang"/>
+
+    <EditText
+        android:id="@+id/edPanjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Panjang"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Hitung"/>
+
+    <EditText
+        android:id="@+id/edLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Luas"/>
+
+</LinearLayout>
